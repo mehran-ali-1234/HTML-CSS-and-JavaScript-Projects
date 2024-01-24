@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Centered Bootstrap Card</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="centered-card">
+            <div class="card text-center" style="width: 22rem; border:5px solid brown">
+                <img src="https://www.course-api.com/images/people/person-1.jpeg" class="card-img-top" id="image" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title set" id="name">Name</h5>
+                    <p class="card-text  set " id="position">Job Position</p>
+                    <p class="card-text  set" id="description">Position Description</p>
+                    <div class="d-flex justify-content-center  set">
+                        <button class="btn  mr-2 prev"><i class="fa fa-duotone fa-arrow-left"></i></button>
+                        <button class="btn  ml-2 next"><i class="fa fa-duotone fa-arrow-right"></i></button>
+                    </div>
+                    <div class="  set" >
+                        <button class="btn btn-danger rand">Surprise Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

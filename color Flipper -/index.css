@@ -1,0 +1,12 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.color{
+    color:skyblue;
+}
+.navbar-toggler-icon {
+    color:black; /* Change this color to your desired icon color */
+}
