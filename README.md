@@ -1,1 +1,1 @@
-All Projects includud HTML ,CSS and JS.
+All Projects included HTML ,CSS and JS.
